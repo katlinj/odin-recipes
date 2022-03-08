@@ -1,1 +1,1 @@
-# odin-recipes
+This is my first project in TOP where I created a simple website using purely HTML. This website contains recipes of my favorite food.
