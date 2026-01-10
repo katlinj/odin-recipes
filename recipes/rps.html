@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <script type="module" src="rps-controller.js"></script>
+    <link rel="stylesheet" href="rps-styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Rock Paper Scissors Game</h1>
+        <div class="score-board">
+            <div class="scorecard">
+                <div id="label" class="badge">User</div>
+                <p id="user-score" class="score">0</p>
+            </div>
+            <div class="scorecard">
+                <div id="label" class="badge">Comp</div>
+                <p id="computer-score" class="score">0</p>
+            </div>
+            <button id="reset-button" class="reset-button">Reset</button>
+            
+        </div>
+        <!-- <div class="result">
+            <p id="result-text">Make your move!</p>
+        </div> -->
+        <div class="moves">
+            <div class="move-display" id="user-move-display">
+                <h3>User's Move</h3>
+                <div id="user-move" class="move-emoji">❔</div>
+                 <div class="choices">
+                    <button class="choice-button" id="rock">✊</button>
+                    <button class="choice-button" id="paper">✋</button>
+                    <button class="choice-button" id="scissors">✌️</button>
+                </div>
+                
+            </div>
+            <div class="move-display" id="computer-move-display">
+                <h3>Computer's Move</h3>
+                <div id="computer-move" class="move-emoji">❔</div>
+                <div class="choices">
+                    <button class="choice-button">✊</button>
+                    <button class="choice-button">✋</button>
+                    <button class="choice-button">✌️</button>
+                </div>
+            </div>
+           
+        </div>
+        
+        
+                
+
+    </div>
+    
+    
+</body>
+</html>
